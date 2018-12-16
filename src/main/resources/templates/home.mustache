@@ -1,0 +1,13 @@
+{{> header}}
+
+<p>Send a message to all {{count}} campaign subscribers who have opted in to receive marketing:</p>
+<form method="post" action="/send">
+    <div>
+        <textarea name="message"></textarea>
+    </div>
+    <div>
+        <button type="submit">Send all!</button>
+    </div>
+</form>
+
+{{> footer}}
